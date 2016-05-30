@@ -2,7 +2,7 @@ package com.craftsvilla.wallpaper.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.app.FragmentPagerAdapter;
 
 import com.craftsvilla.wallpaper.Fragment.MainFragment;
 import com.craftsvilla.wallpaper.Model.MainWallpaperModel;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by naresh on 19/5/16.
  */
-public class MainAdapter extends FragmentStatePagerAdapter {
+public class MainAdapter extends FragmentPagerAdapter {
     List<MainWallpaperModel> mainWallpaperModels;
 
     public MainAdapter(FragmentManager fm, List<MainWallpaperModel> mainWallpaperModels) {

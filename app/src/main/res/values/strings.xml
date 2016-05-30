@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Wallpaper</string>
+    <string name="shared_transitions">SharedTransition</string>
 </resources>
