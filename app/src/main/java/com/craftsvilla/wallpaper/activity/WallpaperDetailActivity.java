@@ -26,8 +26,7 @@ public class WallpaperDetailActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapse_toolbar);
 //        collapsingToolbar.setTitle("");
-        Animation animation = AnimationUtils.loadAnimation(this,R.anim.heart_animation);
-        collapsingToolbar.startAnimation(animation);
+
 
        /* collapsingToolbar.setCollapsedTitleTextColor (ContextCompat.getColor(getApplicationContext(),R.color.orange));
         collapsingToolbar.setExpandedTitleColor(ContextCompat.getColor(getApplicationContext(),R.color.abc));*/

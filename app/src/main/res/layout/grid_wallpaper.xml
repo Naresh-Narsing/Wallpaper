@@ -1,73 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    xmlns:card_view="http://schemas.android.com/tools"
-     android:paddingLeft="2dp"
-    android:paddingRight="2dp">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp">
 
-    <android.support.v7.widget.CardView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:foreground="?android:attr/selectableItemBackground"
-        card_view:cardElevation="5dp"
-        card_view:cardUseCompatPadding="true"
-        >
+        android:layout_height="200dp"
+        android:padding="16dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="2dp"
-            android:background="@drawable/grid_item_white_shape"
-            >
+        <!-- Thumbnail Image -->
+        <ImageView
+            android:id="@+id/wallpaperImage"
+            android:layout_width="150dp"
+            android:layout_height="120dp" />
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1">
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/wallpaperTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wallpaperImage" />
 
-                <ImageView
-                    android:id="@+id/wallpaperImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@mipmap/ic_launcher"
-                    android:contentDescription="@string/app_name"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="false"
-                    android:scaleType="fitXY"
-                    android:transitionName="profile"/>
+        <!-- Rating -->
+        <ImageView
+            android:id="@+id/wallpaperLike"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/heart"
+            android:layout_below="@id/wallpaperTitle" />
 
-            </RelativeLayout>
+       <!-- &lt;!&ndash; Genre &ndash;&gt;
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating" />
 
-            <LinearLayout
-                android:id="@+id/wallpaperInfoLL"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="6dp"
-                >
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/wallpaperTitle"
-                    android:text="WallPaper Dummy"/>
-
-            </LinearLayout>
-
-            <ImageView
-                android:id="@+id/wallpaperLike"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/heart"/>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-
-
-</LinearLayout>
+        &lt;!&ndash; Release Year &ndash;&gt;
+        <TextView
+            android:id="@+id/releaseYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genre" />
+-->    </RelativeLayout>
+</android.support.v7.widget.CardView>
