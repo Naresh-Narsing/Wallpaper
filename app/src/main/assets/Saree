@@ -1,36 +1,44 @@
 {
   "data": [
     {
+      "id": "1",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
       "name": "Lehengas"
     },
     {
+      "id": "2",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
       "name": "Saree"
     },
     {
+      "id": "3",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
       "name": "Salwar"
     },
     {
+      "id": "4",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
       "name": "Suit"
     },
     {
+      "id": "5",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
-      "name": "Lehengas"
+      "name": "Accessories"
     },
     {
+      "id": "6",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
-      "name": "Saree"
+      "name": "Footwear"
     },
     {
+      "id": "7",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
-      "name": "Salwar"
+      "name": "Jewellery"
     },
     {
+      "id": "8",
       "image": "http://assets1.craftsvilla.com/banner-craftsvilla/cvfeeds/1463405203_newarrivals_160516_hero_app.jpg",
-      "name": "Suit"
+      "name": "Bag"
     }
   ]
 }
